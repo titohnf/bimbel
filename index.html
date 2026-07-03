@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bimbel Tera</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="nav-i">
+    <div class="logo-mark">
+      <img src="image1.png" alt="Logo Bimbel Tera" />
+      <div class="logo">Bimbel Tera</div>
+    </div>
+    <div class="navlinks">
+      <a href="#metode">Metode</a>
+      <a href="#bukti">Hasil</a>
+      <a href="#program">Program</a>
+      <a href="#faq">FAQ</a>
+    </div>
+    <a href="https://bit.ly/DaftarBimbelTera" class="navcta" target="_blank">DAFTAR →</a>
+  </div>
+</nav>
+
+<div class="hero-bg">
+<div class="hero grid-corner">
+  <div class="hero-grid">
+    <div>
+      <h1>
+        <span class="h1-static">Apakah anak Anda</span><br><span class="h1-dynamic-wrap"><span class="h1-dynamic" id="dynamicWord">lemah matematika</span><span class="h1-qmark">?</span></span>
+      </h1>
+      <p class="lead">Ceritakan kebutuhan anak Anda, kami bantu cari pendekatan yang pas.</p>
+      <div class="hero-ctas">
+        <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20diskusi%20soal%20kebutuhan%20belajar%20anak%20saya" class="btn-primary" target="_blank">Mulai Diskusi, Gratis</a>
+        <a href="#metode" class="btn-secondary">Lihat cara kami membantu ↓</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+      <img src="image2.jpg" alt="Bimbel yang ngerti kamu - tutor membimbing siswa belajar" class="hero-photo-img">
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="hero-why">
+  <div class="hero-why-grid">
+    <div class="hero-why-item">
+      <span class="hero-why-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#026BF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+          <path d="m9 12 2 2 4-4"/>
+        </svg>
+      </span>
+      <div>
+        <div class="hero-why-title">Berbadan Hukum Resmi</div>
+        <div class="hero-why-desc">Lembaga terdaftar secara legal, bukan bimbel rumahan tanpa kejelasan</div>
+      </div>
+    </div>
+    <div class="hero-why-item">
+      <span class="hero-why-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#026BF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="m16 11 2 2 4-4"/>
+        </svg>
+      </span>
+      <div>
+        <div class="hero-why-title">Tutor Profesional</div>
+        <div class="hero-why-desc">Tenaga pendidik berpengalaman dan terlatih</div>
+      </div>
+    </div>
+    <div class="hero-why-item">
+      <span class="hero-why-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#026BF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+          <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+        </svg>
+      </span>
+      <div>
+        <div class="hero-why-title">Kelas Kecil (Max 5 Siswa)</div>
+        <div class="hero-why-desc">Perhatian tutor lebih maksimal ke tiap anak</div>
+      </div>
+    </div>
+    <div class="hero-why-item">
+      <span class="hero-why-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#026BF5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M3 3v18h18"/>
+          <path d="M18 17V9"/>
+          <path d="M13 17V5"/>
+          <path d="M8 17v-3"/>
+        </svg>
+      </span>
+      <div>
+        <div class="hero-why-title">Laporan Progres Belajar</div>
+        <div class="hero-why-desc">Orang tua bisa pantau perkembangan secara berkala</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- 2. METODE (CARA KAMI MEMBANTU) — versi final dengan ikon animasi -->
+<section id="metode" style="background:var(--paper-dim);box-shadow:0 0 0 100vmax var(--paper-dim);">
+  <div class="sec-head">
+    <div class="sec-eyebrow">Cara Kami Membantu</div>
+    <h2>Kami ngerti, setiap anak butuh waktu beda-beda</h2>
+  </div>
+
+  <div class="ckm-grid" style="margin-top:28px;">
+    <div class="ckm-card">
+      <!-- VERSI ICON ANIMASI (disimpan, tinggal un-comment jika ingin dipakai lagi)
+      <div class="ckm-icon-wrap">
+        <span class="ckm-icon-base">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#026BF5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+            <path d="M12 7v14"/>
+            <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/>
+          </svg>
+        </span>
+        <svg class="ckm-checklist" viewBox="0 0 24 24" width="18" height="18">
+          <path class="ckm-check-bg" d="M5 12.5 9.5 17 19 6" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          <path class="ckm-check-fg" d="M5 12.5 9.5 17 19 6" fill="none" stroke="#20C5B5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      -->
+      <div class="ckm-emoji ckm-emoji-1">📖</div>
+      <h4>Sesuai kurikulum, tapi tetap dikejar kalau ada yang bolong</h4>
+      <p class="ckm-desc">Anak belajar materi yang sama dengan sekolahnya, supaya nggak ketinggalan. Tapi kalau ada bagian yang masih lemah, kami kasih tugas tambahan dan terus dipantau, bukan dibiarkan menumpuk sampai kelihatan saat ujian.</p>
+      <div class="ckm-fact">Riset tutoring (EdResearch for Action, 2024) menunjukkan kelas dengan maksimal 3 siswa per tutor memberi dampak belajar paling besar.</div>
+    </div>
+
+    <div class="ckm-card">
+      <!-- VERSI ICON ANIMASI (disimpan, tinggal un-comment jika ingin dipakai lagi)
+      <div class="ckm-icon-wrap">
+        <span class="ckm-icon-base ckm-shake">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#026BF5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+            <path d="M12 18V5"/>
+            <path d="M15 13a4.17 4.17 0 0 1-3-4 4.17 4.17 0 0 1-3 4"/>
+            <path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 1 0-5.598 1.5"/>
+            <path d="M17.997 5.125a4 4 0 0 1 2.526 5.77"/>
+            <path d="M18 18a4 4 0 0 0 2-7.464"/>
+            <path d="M19.967 17.483A4 4 0 1 1 12 18a4 4 0 1 1-7.967-.517"/>
+            <path d="M6 18a4 4 0 0 1-2-7.464"/>
+            <path d="M6.003 5.125a4 4 0 0 0-2.526 5.77"/>
+          </svg>
+        </span>
+        <span class="ckm-bolt">
+          <svg viewBox="0 0 24 24" width="16" height="16">
+            <polygon class="ckm-bolt-bg" points="13,2 3,14 11,14 9,22 21,9 13,9" fill="none" stroke="#fff" stroke-width="2.5" stroke-linejoin="round"/>
+            <polygon class="ckm-bolt-fg" points="13,2 3,14 11,14 9,22 21,9 13,9" fill="#20C5B5" stroke="#20C5B5" stroke-width="0.8" stroke-linejoin="round"/>
+          </svg>
+        </span>
+      </div>
+      -->
+      <div class="ckm-emoji ckm-emoji-2">🧠</div>
+      <h4>Konsep dulu, baru soal</h4>
+      <p class="ckm-desc">Bukan disuruh kerja sambil bingung. Tutor jelasin dulu sampai anak benar-benar paham, baru lanjut ke latihan soal yang lebih banyak.</p>
+      <div class="ckm-fact">Pendekatan ini dikenal sebagai mastery learning — riset menunjukkan peningkatan hasil belajar yang signifikan.</div>
+    </div>
+
+    <div class="ckm-card">
+      <!-- VERSI ICON ANIMASI (disimpan, tinggal un-comment jika ingin dipakai lagi)
+      <div class="ckm-icon-wrap">
+        <span class="ckm-icon-base ckm-bounce">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#026BF5" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+            <path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/>
+            <path d="M12 5.36 8.87 8.5a2.13 2.13 0 0 0 0 3l.13.12a2.18 2.18 0 0 0 3.08 0l1.07-1.07a3.61 3.61 0 0 1 5.1 0l2.5 2.5"/>
+            <path d="m18 15-2-2"/>
+            <path d="m15 18-2-2"/>
+          </svg>
+        </span>
+        <span class="ckm-sparkle">
+          <svg viewBox="0 0 24 24" width="18" height="18">
+            <path class="ckm-spark-bg" d="M12 1.5l2 6.5L20.5 10l-6.5 2L12 18.5l-2-6.5L3.5 10l6.5-2z" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/>
+            <path class="ckm-spark-fg" d="M12 1.5l2 6.5L20.5 10l-6.5 2L12 18.5l-2-6.5L3.5 10l6.5-2z" fill="#20C5B5" stroke="#20C5B5" stroke-width="1.5"/>
+          </svg>
+        </span>
+      </div>
+      -->
+      <div class="ckm-emoji ckm-emoji-3">🤝</div>
+      <h4>Bebas salah, tanpa dimarahi</h4>
+      <p class="ckm-desc">Itu bagian dari cara belajarnya. Anak boleh coba, boleh salah, dan dibantu mencari tahu di mana letak salahnya, bukan langsung disalahkan.</p>
+      <div class="ckm-fact">Riset psikologi pendidikan (growth mindset) menunjukkan rasa aman terhadap kesalahan meredakan kecemasan belajar matematika.</div>
+    </div>
+  </div>
+</section>
+
+
+<!-- 3. BUKTI -->
+<!-- CATATAN: data di bawah masih ilustratif (350+, 85%, 5 thn, angka grafik, testimoni).
+     Tag "Ilustrasi" disembunyikan sementara untuk preview visual bersih.
+     WAJIB dikembalikan / diganti data asli sebelum publish sungguhan. -->
+<section id="bukti" class="grid-corner">
+  <div class="sec-head">
+    <div class="sec-eyebrow">Cerita Siswa</div>
+    <h2>Bukan tentang hasil, tapi bagaimana proses yang dilalui</h2>
+  </div>
+  <div class="ba-grid" style="margin-top:28px;">
+    <div class="ba-card">
+      <div class="ba-thumb"><div class="ba-thumb-inner"><span class="ba-thumb-pin">📌</span><img src="siswa1.png" alt="Siswa belajar di kelas"></div></div>
+      <div class="ba-card-body">
+      <div class="ba-title">Dari Menebak Jadi Mengerti</div>
+      <div class="ba-head">
+        <div class="ba-head-text">
+          <div class="ba-chips">
+            <span class="ba-chip jenjang">Kelas 4 SD</span>
+            <span class="ba-chip program">Intensif Fondasi</span>
+          </div>
+        </div>
+      </div>
+      <div class="ba-story">
+        <div class="ba-story-row">
+          <span class="ba-story-label">Masalah</span>
+          <span class="ba-story-text">A.K. bisa menghitung kalau soalnya berurutan, tapi begitu soal cerita minta dia mengubah informasi jadi operasi hitung, dia diam dan menebak.</span>
+        </div>
+        <div class="ba-story-row hasil">
+          <span class="ba-story-label">Hasilnya</span>
+          <span class="ba-story-text">Sekarang dia berani coba duluan sebelum nanya, meski hasilnya nanti masih bisa salah.</span>
+        </div>
+      </div>
+
+      <button class="ba-more-btn" onclick="toggleBaMore(this)">
+        <span class="ba-more-text">Baca kisahnya</span>
+        <span class="ba-more-arrow">▾</span>
+      </button>
+      <div class="ba-more-body">
+        <div class="ba-more-inner">
+          <div class="ba-story-row proses">
+            <span class="ba-story-label">Yang Dilakukan</span>
+            <span class="ba-story-text">Tutor ganti latihan soal cerita biasa dengan teknik "lingkari kata kunci" — sebelum menghitung, A.K. dilatih menandai kata seperti "sisa", "total", "masing-masing" dulu.</span>
+          </div>
+          <div class="ba-story-row proses">
+            <span class="ba-story-label">Prosesnya</span>
+            <span class="ba-story-text">6 minggu pertama masih sering salah pilih operasi. Mulai minggu ke-8, errornya jauh berkurang karena sudah jadi kebiasaan.</span>
+          </div>
+          <div class="ba-minichart">
+            <div class="ba-minichart-label">Nilai ulangan soal cerita per periode</div>
+            <svg viewBox="0 0 280 64" preserveAspectRatio="none">
+              <line x1="0" y1="10" x2="280" y2="10" stroke="#E3E0D5" stroke-width="1"/>
+              <line x1="0" y1="54" x2="280" y2="54" stroke="#E3E0D5" stroke-width="1"/>
+              <polyline points="10,48 75,42 140,30 205,18 270,8" fill="none" stroke="#026BF5" stroke-width="2.5"/>
+              <circle cx="10" cy="48" r="3.5" fill="#026BF5"/>
+              <circle cx="75" cy="42" r="3.5" fill="#026BF5"/>
+              <circle cx="140" cy="30" r="3.5" fill="#026BF5"/>
+              <circle cx="205" cy="18" r="3.5" fill="#026BF5"/>
+              <circle cx="270" cy="8" r="4.5" fill="#20C5B5" stroke="#fff" stroke-width="1.5"/>
+              <text x="10" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#56524A" text-anchor="middle">M1</text>
+              <text x="75" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#56524A" text-anchor="middle">M3</text>
+              <text x="140" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#56524A" text-anchor="middle">M5</text>
+              <text x="205" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#56524A" text-anchor="middle">M7</text>
+              <text x="270" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#1A7A6E" text-anchor="middle">M12</text>
+            </svg>
+          </div>
+          <div class="ba-photo-slot">
+            <span class="ph-icon">🏅</span>
+            <p>FOTO: A.K. bersama tutor, atau momen lomba/sertifikat (kalau ada)</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- DISIMPAN (tidak ditampilkan) — kartu Calistung N.P., bisa dikembalikan nanti jika section diperluas
+    <div class="ba-card">
+      <div class="ba-title">Huruf yang Tidak Lagi Tertukar</div>
+      <div class="ba-head">
+        <div class="ba-head-text">
+          <div class="ba-chips">
+            <span class="ba-chip jenjang">Kelas 1 SD</span>
+            <span class="ba-chip program">Kelas Calistung</span>
+          </div>
+        </div>
+      </div>
+      <div class="ba-story">
+        <div class="ba-story-row">
+          <span class="ba-story-label">Masalah</span>
+          <span class="ba-story-text">N.P. sering kebalik nulis huruf seperti "b" dan "d", dan masih mengeja kata per huruf, belum bisa baca langsung per kata.</span>
+        </div>
+        <div class="ba-story-row hasil">
+          <span class="ba-story-label">Hasilnya</span>
+          <span class="ba-story-text">Sudah bisa baca kalimat pendek sendiri, dan mulai berani coba berhitung sederhana tanpa dibantu.</span>
+        </div>
+      </div>
+
+      <button class="ba-more-btn" onclick="toggleBaMore(this)">
+        <span class="ba-more-text">Baca kisahnya</span>
+        <span class="ba-more-arrow">▾</span>
+      </button>
+      <div class="ba-more-body">
+        <div class="ba-more-inner">
+          <div class="ba-story-row proses">
+            <span class="ba-story-label">Yang Dilakukan</span>
+            <span class="ba-story-text">Tutor pakai kartu kata bergambar yang konsisten dipakai berulang, supaya N.P. mengenali bentuk kata lewat pengulangan, bukan cuma mengeja dari nol setiap kali.</span>
+          </div>
+          <div class="ba-story-row proses">
+            <span class="ba-story-label">Prosesnya</span>
+            <span class="ba-story-text">Bulan pertama masih banyak kebalik. Masuk bulan ketiga, mulai bisa membedakan huruf yang sering tertukar tanpa diingatkan.</span>
+          </div>
+          <div class="ba-levels">
+            <div class="ba-levels-label">Level baca-tulis N.P. saat ini</div>
+            <div class="ba-level-row done">
+              <span class="ba-level-dot"></span>
+              <span class="ba-level-text">Mengenal &amp; membedakan huruf</span>
+            </div>
+            <div class="ba-level-row done">
+              <span class="ba-level-dot"></span>
+              <span class="ba-level-text">Mengeja kata per suku kata</span>
+            </div>
+            <div class="ba-level-row current">
+              <span class="ba-level-dot"></span>
+              <span class="ba-level-text">Membaca kalimat pendek sendiri</span>
+            </div>
+            <div class="ba-level-row">
+              <span class="ba-level-dot"></span>
+              <span class="ba-level-text">Membaca paragraf &amp; berhitung lanjut</span>
+            </div>
+          </div>
+          <div class="ba-photo-slot">
+            <span class="ph-icon">📖</span>
+            <p>FOTO: N.P. saat membaca/menulis sendiri, momen progres kecilnya</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <div class="ba-card">
+      <div class="ba-thumb"><div class="ba-thumb-inner" style="transform:rotate(1.5deg)"><span class="ba-thumb-pin">📌</span><img src="siswa2.png" alt="Siswa sedang berpikir"></div></div>
+      <div class="ba-card-body">
+      <div class="ba-title">Soal yang Tidak Lagi Membuat Panik</div>
+      <div class="ba-head">
+        <div class="ba-head-text">
+          <div class="ba-chips">
+            <span class="ba-chip jenjang">Kelas 12 SMA</span>
+            <span class="ba-chip program">Intensif UTBK</span>
+          </div>
+        </div>
+      </div>
+      <div class="ba-story">
+        <div class="ba-story-row">
+          <span class="ba-story-label">Masalah</span>
+          <span class="ba-story-text">R.F. paham materinya, tapi begitu ketemu soal UTBK yang panjang dan dikasih waktu terbatas, dia keburu panik dan malah salah hitung di langkah yang sebenarnya dia kuasai.</span>
+        </div>
+        <div class="ba-story-row hasil">
+          <span class="ba-story-label">Hasilnya</span>
+          <span class="ba-story-text">Sekarang dia punya strategi mengerjakan, bukan cuma materi — tahu soal mana yang dikerjakan duluan, mana yang dilewat dulu.</span>
+        </div>
+      </div>
+
+      <button class="ba-more-btn" onclick="toggleBaMore(this)">
+        <span class="ba-more-text">Baca kisahnya</span>
+        <span class="ba-more-arrow">▾</span>
+      </button>
+      <div class="ba-more-body">
+        <div class="ba-more-inner">
+          <div class="ba-story-row proses">
+            <span class="ba-story-label">Yang Dilakukan</span>
+            <span class="ba-story-text">Selain pendalaman materi, R.F. dilatih simulasi try out dengan waktu nyata — bukan cuma latihan soal santai, tapi dengan tekanan waktu seperti UTBK sungguhan, supaya panik di hari-H tidak jadi kejutan baru.</span>
+          </div>
+          <div class="ba-story-row proses">
+            <span class="ba-story-label">Prosesnya</span>
+            <span class="ba-story-text">Try out pertama masih banyak soal yang tidak selesai karena keburu waktu. Setelah beberapa kali simulasi, mulai terbentuk kebiasaan membagi waktu per soal.</span>
+          </div>
+          <div class="ba-minichart">
+            <div class="ba-minichart-label">Skor try out UTBK per simulasi</div>
+            <svg viewBox="0 0 280 64" preserveAspectRatio="none">
+              <line x1="0" y1="10" x2="280" y2="10" stroke="#E3E0D5" stroke-width="1"/>
+              <line x1="0" y1="54" x2="280" y2="54" stroke="#E3E0D5" stroke-width="1"/>
+              <polyline points="10,46 75,38 140,28 205,16 270,6" fill="none" stroke="#026BF5" stroke-width="2.5"/>
+              <circle cx="10" cy="46" r="3.5" fill="#026BF5"/>
+              <circle cx="75" cy="38" r="3.5" fill="#026BF5"/>
+              <circle cx="140" cy="28" r="3.5" fill="#026BF5"/>
+              <circle cx="205" cy="16" r="3.5" fill="#026BF5"/>
+              <circle cx="270" cy="6" r="4.5" fill="#20C5B5" stroke="#fff" stroke-width="1.5"/>
+              <text x="10" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#56524A" text-anchor="middle">TO1</text>
+              <text x="75" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#56524A" text-anchor="middle">TO2</text>
+              <text x="140" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#56524A" text-anchor="middle">TO3</text>
+              <text x="205" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#56524A" text-anchor="middle">TO4</text>
+              <text x="270" y="60" font-family="IBM Plex Mono" font-size="8.5" fill="#1A7A6E" text-anchor="middle">UTBK</text>
+            </svg>
+          </div>
+          <div class="ba-photo-slot">
+            <span class="ph-icon">📝</span>
+            <p>FOTO: R.F. saat simulasi try out UTBK dengan waktu nyata</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <div class="ba-card">
+      <div class="ba-thumb"><div class="ba-thumb-inner" style="transform:rotate(-1deg)"><span class="ba-thumb-pin">📌</span><img src="siswa3.jpg" alt="Siswa aktif di kelas"></div></div>
+      <div class="ba-card-body">
+      <div class="ba-title">Otak yang Ngebut, Tangan yang Direm</div>
+      <div class="ba-head">
+        <div class="ba-head-text">
+          <div class="ba-chips">
+            <span class="ba-chip jenjang">Kelas 6 SD</span>
+            <span class="ba-chip program">Tes Fondasi</span>
+          </div>
+        </div>
+      </div>
+      <div class="ba-story">
+        <div class="ba-story-row">
+          <span class="ba-story-label">Masalah</span>
+          <span class="ba-story-text">M.H.A. sebenarnya logikanya kuat, tapi masih hitung pakai jari dan sering keliru nilai tempat (47 ditulis 40/7) — bukan karena tidak paham, tapi konsep dasarnya belum benar-benar matang.</span>
+        </div>
+        <div class="ba-story-row hasil">
+          <span class="ba-story-label">Hasilnya</span>
+          <span class="ba-story-text">Dari tes fondasi ini, kami tahu persis bagian mana yang harus dibenahi duluan — bukan menebak-nebak dari nilai ulangan saja.</span>
+        </div>
+      </div>
+
+      <button class="ba-more-btn" onclick="toggleBaMore(this)">
+        <span class="ba-more-text">Baca kisahnya</span>
+        <span class="ba-more-arrow">▾</span>
+      </button>
+      <div class="ba-more-body">
+        <div class="ba-more-inner">
+          <div class="ba-story-row proses">
+            <span class="ba-story-label">Yang Dilakukan</span>
+            <span class="ba-story-text">Setiap siswa Tera memulai dengan tes fondasi ini — bukan tes umum, tapi pemetaan 4 pilar: Konsep, Logika, Literasi, dan Kecepatan. Hasilnya jadi dasar untuk menyusun materi yang benar-benar dibutuhkan.</span>
+          </div>
+          <div class="ba-radar">
+            <div class="ba-radar-label">
+              <span>Hasil Tes Fondasi — 4 Pilar</span>
+              <span>Nama disamarkan</span>
+            </div>
+            <div class="ba-radar-wrap">
+              <svg viewBox="0 0 300 300">
+                <polygon points="150,40 260,150 150,260 40,150" fill="none" stroke="#D6D2C4" stroke-width="1"/>
+                <polygon points="150,67.5 232.5,150 150,232.5 67.5,150" fill="none" stroke="#D6D2C4" stroke-width="1"/>
+                <polygon points="150,95 205,150 150,205 95,150" fill="none" stroke="#D6D2C4" stroke-width="1"/>
+                <polygon points="150,122.5 177.5,150 150,177.5 122.5,150" fill="none" stroke="#D6D2C4" stroke-width="1"/>
+                <line x1="150" y1="40" x2="150" y2="260" stroke="#D6D2C4" stroke-width="1"/>
+                <line x1="40" y1="150" x2="260" y2="150" stroke="#D6D2C4" stroke-width="1"/>
+                <polygon points="150,79.6 247.9,150 150,238 76.3,150" fill="rgba(2,107,245,0.1)" stroke="#026BF5" stroke-width="2.5"/>
+                <circle cx="150" cy="79.6" r="4" fill="#026BF5"/>
+                <circle cx="247.9" cy="150" r="4" fill="#20C5B5"/>
+                <circle cx="150" cy="238" r="4" fill="#026BF5"/>
+                <circle cx="76.3" cy="150" r="4" fill="#026BF5"/>
+                <text x="150" y="16" font-family="IBM Plex Mono" font-size="12" font-weight="600" fill="#1A1A1A" text-anchor="middle">KONSEP</text>
+                <text x="150" y="29" font-family="IBM Plex Mono" font-size="10.5" fill="#56524A" text-anchor="middle">64</text>
+                <text x="287" y="146" font-family="IBM Plex Mono" font-size="12" font-weight="600" fill="#1A7A6E" text-anchor="middle">LOGIKA</text>
+                <text x="287" y="159" font-family="IBM Plex Mono" font-size="10.5" fill="#1A7A6E" text-anchor="middle">89</text>
+                <text x="150" y="288" font-family="IBM Plex Mono" font-size="12" font-weight="600" fill="#1A1A1A" text-anchor="middle">LITERASI</text>
+                <text x="150" y="276" font-family="IBM Plex Mono" font-size="10.5" fill="#56524A" text-anchor="middle">80</text>
+                <text x="13" y="146" font-family="IBM Plex Mono" font-size="12" font-weight="600" fill="#1A1A1A" text-anchor="middle">KECEPATAN</text>
+                <text x="13" y="159" font-family="IBM Plex Mono" font-size="10.5" fill="#56524A" text-anchor="middle">67</text>
+              </svg>
+              <div class="ba-radar-score">
+                <div class="lbl">Skor</div>
+                <div class="val">75</div>
+              </div>
+            </div>
+            <div class="ba-radar-quote">
+              <p>"Otak M.H.A. ngebut, tapi tangannya mengerem — masih hitung pakai jari, padahal logikanya sudah kuat."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CATATAN: testimoni di bawah masih contoh karangan, BELUM testimoni asli orang tua. WAJIB diganti sebelum publish. -->
+<section id="testimoni" style="background:var(--paper-warm);box-shadow:0 0 0 100vmax var(--paper-warm);">
+  <div class="sec-head">
+    <div class="sec-eyebrow">Kesan Orang Tua</div>
+    <h2>Ungkapan jujur bagi mereka yang percaya</h2>
+  </div>
+  <div class="testi-wrap">
+    <div class="testi">
+      <p class="quote">Anak saya tadinya males banget kalau diajak ngomongin matematika. Sekarang malah dia yang cerita duluan kalau dapet nilai bagus di ulangan. Itu yang bikin saya yakin caranya memang beda.</p>
+      <div class="who"><span class="testi-avatar">IR</span> Ibu Rina, orang tua siswa kelas 8</div>
+    </div>
+    <div class="testi">
+      <p class="quote">Yang saya suka, tutornya kasih tau persis di bagian mana anak saya sering salah — bukan cuma bilang "kurang latihan". Jadi saya juga jadi ngerti harus bantu apa di rumah.</p>
+      <div class="who"><span class="testi-avatar">BH</span> Bapak Heru, orang tua siswa kelas 11</div>
+    </div>
+    <div class="testi">
+      <p class="quote">Awalnya saya ragu karena Tera masih baru. Tapi setelah lihat cara tutornya jelasin progres anak saya tiap bulan, dengan detail bukan cuma angka, saya jadi tenang.</p>
+      <div class="who"><span class="testi-avatar">IS</span> Ibu Sari, orang tua siswa kelas 9</div>
+    </div>
+    <div class="testi">
+      <p class="quote">Anak saya yang tadinya takut sama matematika sekarang malah minta belajar lebih sering. Katanya gurunya nggak pernah marah kalau dia salah, malah dibantu cari tahu kenapa salahnya.</p>
+      <div class="who"><span class="testi-avatar">BD</span> Bapak Dimas, orang tua siswa kelas 7</div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- 5. PROGRAM & HARGA -->
+<section id="program" class="grid-corner">
+  <div class="sec-head">
+    <div class="sec-eyebrow">Program &amp; Harga</div>
+    <h2>Setiap anak butuh jalan yang beda, ini pilihannya</h2>
+  </div>
+
+  <!-- KELOMPOK 1: INTENSIF UJIAN -->
+  <div class="prog-group-label" style="margin-top:40px;">Program Intensif</div>
+  <!-- CATATAN: info di bawah masih ilustratif, ganti dengan data asli Tera -->
+  <div class="prog-info-strip">
+    <span class="val">6–8x pertemuan / bulan</span><span class="sep">·</span><span class="val">Mengikuti kurikulum sekolah</span>
+  </div>
+  <div class="prog-grid" style="margin-top:24px;">
+    <div class="prog-card">
+      <div class="prog-head">
+        <span class="prog-num">01</span>
+        <h3>Intensif Fondasi</h3>
+      </div>
+      <span class="prog-jenjang">Kelas 3–6 SD</span>
+      <p class="prog-focus">Membenarkan konsep dasar yang membuat nilai sering stuck.</p>
+      <ul class="prog-materi">
+        <li>Operasi bilangan &amp; pecahan dasar</li>
+        <li>Logika berhitung dan soal cerita</li>
+        <li>Latihan terarah sesuai kelemahan masing-masing anak</li>
+      </ul>
+      <div class="prog-price">Rp450rb<span>/bulan</span></div>
+      <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20program%20Intensif%20Fondasi" class="prog-cta">Tanya via WhatsApp →</a>
+    </div>
+
+    <div class="prog-card">
+      <div class="prog-head">
+        <span class="prog-num">02</span>
+        <h3>Intensif TKA</h3>
+      </div>
+      <span class="prog-jenjang">Kls 6 SD / 9 SMP</span>
+      <p class="prog-focus">Latihan terarah sesuai kisi-kisi TKA terbaru.</p>
+      <ul class="prog-materi">
+        <li>Materi sesuai kisi-kisi TKA terbaru</li>
+        <li>Latihan soal dengan pembahasan langkah demi langkah</li>
+        <li>Simulasi try out berkala</li>
+      </ul>
+      <div class="prog-price">Rp499rb<span>/bulan</span></div>
+      <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20program%20Intensif%20TKA" class="prog-cta">Tanya via WhatsApp →</a>
+    </div>
+
+    <div class="prog-card">
+      <div class="prog-head">
+        <span class="prog-num">03</span>
+        <h3>Intensif UTBK</h3>
+      </div>
+      <span class="prog-jenjang">Kelas 12 SMA</span>
+      <p class="prog-focus">Pendalaman materi UTBK dengan simulasi try out nyata.</p>
+      <ul class="prog-materi">
+        <li>Materi sesuai kisi-kisi UTBK terbaru</li>
+        <li>Strategi mengerjakan soal dengan batasan waktu</li>
+        <li>Simulasi try out dengan kondisi mendekati ujian asli</li>
+      </ul>
+      <div class="prog-price">Rp1.499rb<span>/bulan</span></div>
+      <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20program%20Intensif%20UTBK" class="prog-cta">Tanya via WhatsApp →</a>
+    </div>
+  </div>
+
+  <!-- KELOMPOK 2: PROGRAM REGULER -->
+  <div class="prog-group-label" style="margin-top:40px;">Program Juara</div>
+  <!-- CATATAN: info di bawah masih ilustratif, ganti dengan data asli Tera -->
+  <div class="prog-info-strip">
+    <span class="val">6–8x pertemuan / bulan</span><span class="sep">·</span><span class="val">Mengikuti kurikulum sekolah</span>
+  </div>
+  <div class="prog-grid" style="margin-top:24px;">
+    <div class="prog-card featured">
+      <div class="prog-badge">Paling Dipilih</div>
+      <div class="prog-head">
+        <span class="prog-num">04</span>
+        <h3>Kelas Grup</h3>
+      </div>
+      <span class="prog-jenjang">Kelas 3–6 SD</span>
+      <p class="prog-focus">Belajar bersama dalam kelompok kecil, konsep dasar tetap jadi fokus.</p>
+      <ul class="prog-materi">
+        <li>Operasi bilangan &amp; pecahan dasar</li>
+        <li>Logika berhitung dan pola bilangan</li>
+        <li>Latihan soal mingguan dengan pembahasan</li>
+      </ul>
+      <div class="prog-price">mulai Rp380rb<span>/bulan</span></div>
+      <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20program%20Kelas%20Grup" class="prog-cta">Tanya via WhatsApp →</a>
+    </div>
+
+    <div class="prog-card">
+      <div class="prog-head">
+        <span class="prog-num">05</span>
+        <h3>Kelas Calistung</h3>
+      </div>
+      <span class="prog-jenjang">Kelas 3–6 SD</span>
+      <p class="prog-focus">Penguatan baca, tulis, dan hitung dari dasar.</p>
+      <ul class="prog-materi">
+        <li>Mengenal &amp; merangkai huruf jadi kata</li>
+        <li>Membaca kalimat sederhana</li>
+        <li>Berhitung dasar 1–100</li>
+      </ul>
+      <div class="prog-price">mulai Rp380rb<span>/bulan</span></div>
+      <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20Kelas%20Calistung" class="prog-cta">Tanya via WhatsApp →</a>
+    </div>
+
+    <div class="prog-card">
+      <div class="prog-head">
+        <span class="prog-num">06</span>
+        <h3>Kelas Privat</h3>
+      </div>
+      <span class="prog-jenjang">Kelas 3–6 SD</span>
+      <p class="prog-focus">Satu tutor, satu anak, sepanjang sesi belajar.</p>
+      <ul class="prog-materi">
+        <li>Materi disesuaikan dengan kebutuhan anak</li>
+        <li>Boleh fokus ke mapel sekolah atau persiapan ujian</li>
+        <li>Progres dipantau setiap sesi</li>
+      </ul>
+      <div class="prog-price">mulai Rp640rb<span>/bulan</span></div>
+      <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20Kelas%20Privat" class="prog-cta">Tanya via WhatsApp →</a>
+    </div>
+  </div>
+</section>
+
+
+
+<section id="angka" style="background:#E0F7F5;box-shadow:0 0 0 100vmax #E0F7F5;">
+  <div class="sec-head">
+    <div class="sec-eyebrow">Tera dalam Angka</div>
+    <h2>Ini yang sudah terjadi, dan <i>insyaallah</i> akan terus bertambah</h2>
+  </div>
+  <!-- CATATAN: angka di bawah masih ilustratif, ganti dengan data asli Tera -->
+  <div class="stat-strip" style="margin-top:28px;">
+    <div class="stat-cell">
+      <span class="stat-num">347</span>
+      <span class="stat-label">Siswa sudah dibimbing sejak Tera berdiri</span>
+    </div>
+    <div class="stat-cell">
+      <span class="stat-num">1 : 4</span>
+      <span class="stat-label">Rasio tutor per siswa di kelas reguler</span>
+    </div>
+    <div class="stat-cell">
+      <span class="stat-num">89%</span>
+      <span class="stat-label">Siswa tetap lanjut ke periode belajar berikutnya</span>
+    </div>
+    <div class="stat-cell">
+      <span class="stat-num">5 thn</span>
+      <span class="stat-label">Pengalaman mengajar tim Tera</span>
+    </div>
+  </div>
+</section>
+
+
+<section id="faq" class="grid-corner">
+  <div class="sec-head" style="text-align:center;">
+    <div class="sec-eyebrow">Sering Ditanya</div>
+    <h2>Sebelum Anda mendaftar</h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item open">
+      <button class="q" onclick="toggleFaq(this)">
+        <span>Apa itu Tes Fondasi, dan kenapa anak saya harus ikut dulu?</span>
+        <span class="faq-arrow">▾</span>
+      </button>
+      <div class="faq-body">
+        <p class="a">Tes Fondasi adalah pemetaan awal sebelum anak mulai program apa pun di Tera — mengukur 4 pilar (Konsep, Logika, Literasi, Kecepatan) supaya kami tahu persis bagian mana yang perlu dibenahi duluan, bukan menebak dari nilai ulangan saja.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="q" onclick="toggleFaq(this)">
+        <span>Kalau anak saya sudah les di tempat lain, apa masih bisa pindah ke Tera?</span>
+        <span class="faq-arrow">▾</span>
+      </button>
+      <div class="faq-body">
+        <p class="a">Bisa. Justru anak yang sudah les tapi nilainya belum naik biasanya punya bolong di konsep dasar yang belum sempat dibenahi. Tes Fondasi di awal akan menunjukkan persis di bagian mana itu.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="q" onclick="toggleFaq(this)">
+        <span>Berapa lama biasanya sampai terlihat hasilnya?</span>
+        <span class="faq-arrow">▾</span>
+      </button>
+      <div class="faq-body">
+        <p class="a">Berbeda-beda tiap anak, tergantung titik awal dan konsistensi belajarnya. Biasanya perubahan pertama mulai terasa di bulan ke-2 atau ke-3 — bukan instan, tapi kami pantau progresnya tiap pertemuan supaya tahu kalau ada yang perlu disesuaikan.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="q" onclick="toggleFaq(this)">
+        <span>Kalau jadwal anak saya bentrok, apa bisa reschedule?</span>
+        <span class="faq-arrow">▾</span>
+      </button>
+      <div class="faq-body">
+        <p class="a">Untuk kelas reguler (Fondasi, Juara, Calistung), jadwal mengikuti kelompok jadi reschedule terbatas. Untuk Kelas Privat, jadwal bisa diatur ulang sesuai kesepakatan dengan tutor.</p>
+      </div>
+    </div>
+    <div class="faq-item">
+      <button class="q" onclick="toggleFaq(this)">
+        <span>Apa saya bisa lihat laporan perkembangan anak secara berkala?</span>
+        <span class="faq-arrow">▾</span>
+      </button>
+      <div class="faq-body">
+        <p class="a">Bisa. Kami kirim laporan perkembangan secara berkala — bukan cuma angka, tapi juga catatan tutor soal bagian mana yang sudah kuat dan mana yang masih perlu dilatih.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- 7. CTA + lokasi -->
+<div class="cta-wrap">
+  <div class="cta-bg" style="position:relative;">
+    <div class="cta-grid-canvas" id="ctaCanvas"></div>
+    <div class="cta-block">
+      <div class="cta-text">
+        <h2>Siap mulai? Satu langkah kecil, untuk progres yang lebih besar.</h2>
+        <a href="https://bit.ly/DaftarBimbelTera" class="btn-primary" target="_blank">Daftar di Tera Sekarang</a>
+      </div>
+      <div class="cta-person">
+        <img src="cta-person.png" alt="Tutor Tera">
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-main">
+    <div>
+      <div class="footer-brand">Tera Learning Center</div>
+      <p class="footer-tagline">Bimbel yang #NgertiKamu — fokus membenarkan fondasi dulu, baru mengejar nilainya.</p>
+    </div>
+    <div>
+      <div class="footer-col-title">Navigasi</div>
+      <ul class="footer-links">
+        <li><a href="#metode">Cara Kami Membantu</a></li>
+        <li><a href="#bukti">Hasilnya</a></li>
+        <li><a href="#program">Program &amp; Harga</a></li>
+        <li><a href="#faq">Sering Ditanya</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-col-title">Kontak</div>
+      <div class="footer-contact">
+        Jl. Rawageni No. 9K Ratujaya, Depok<br>
+        Senin–Sabtu, 09.00–21.00<br>
+        <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20Tera%20Learning%20Center">0853 6100 5445 (WhatsApp)</a><br>
+        <a href="mailto:teralearningcenter.id@gmail.com">teralearningcenter.id@gmail.com</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Tera Learning Center. Semua hak dilindungi.</span>
+    <span>Dibuat dengan #NgertiKamu</span>
+  </div>
+</footer>
+</footer>
+
+
+
+
+<a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20Tera%20Learning%20Center"
+   class="sticky-wa" id="stickyWa" target="_blank" aria-label="Chat WhatsApp Tera">
+  <span class="sticky-wa-tooltip">Chat dengan kami</span>
+  <svg viewBox="0 0 24 24" fill="#fff">
+    <path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.74 13.4L3 21l3.7-1.27a8.93 8.93 0 0 0 5.35 1.78h0a8.94 8.94 0 0 0 6.32-15.2Zm-5.55 13.7h0a7.4 7.4 0 0 1-3.79-1.04l-.27-.16-2.83.97.95-2.76-.18-.28a7.42 7.42 0 1 1 6.13 3.27Zm4.06-5.55c-.22-.11-1.32-.65-1.52-.73-.2-.07-.35-.11-.5.11s-.57.73-.7.88-.26.16-.48.05a6.07 6.07 0 0 1-3-2.63c-.23-.39.23-.36.65-1.2.07-.15.04-.28-.02-.39s-.5-1.2-.68-1.65c-.18-.43-.36-.37-.5-.38h-.43a.82.82 0 0 0-.6.28 2.5 2.5 0 0 0-.78 1.86 4.36 4.36 0 0 0 .9 2.3 9.95 9.95 0 0 0 3.8 3.36c.53.23.94.36 1.26.47a3 3 0 0 0 1.4.09 2.3 2.3 0 0 0 1.5-1.06 1.85 1.85 0 0 0 .13-1.06c-.06-.1-.2-.16-.43-.27Z"/>
+  </svg>
+</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
