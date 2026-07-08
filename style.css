@@ -104,23 +104,6 @@
     padding:7px 12px;
   }
 
-  /* NAV */
-  nav{ border-bottom:1.5px solid var(--foreground); background:var(--card); position:sticky;top:0;z-index:50; }
-  .nav-i{
-    max-width:1080px;margin:0 auto;padding:0 32px;
-    height:64px;display:flex;align-items:center;justify-content:space-between;
-  }
-  .logo-mark{display:flex;align-items:center;gap:10px;}
-  .logo-mark img{width:26px;height:26px;object-fit:contain;display:block;}
-  .logo{ font-family:'Lora',serif;font-weight:700;font-size:18px;letter-spacing:-0.3px; }
-  .navlinks{display:flex;gap:32px;font-size:14px;color:var(--muted);}
-  .navlinks a:hover{color:var(--primary);}
-  .navcta{
-    font-family:'IBM Plex Mono',monospace;font-size:12px;font-weight:600;
-    background:var(--primary);color:#fff;
-    padding:9px 17px;
-  }
-
   /* HERO */
   .hero-bg{background:#FFFFFF;}
   .hero{ max-width:1080px;margin:0 auto;padding:120px 32px; }
@@ -804,7 +787,6 @@
     .ckm-grid{grid-template-columns:1fr;}
     .testi-wrap{grid-template-columns:1fr;}
     .ebook-strip{flex-direction:column;align-items:flex-start;}
-    .navlinks{display:none;}
     /* CTA mobile */
     .cta-wrap{padding:48px 20px 32px;}
     .cta-block{flex-direction:column;padding:40px 28px 0;min-height:unset;}

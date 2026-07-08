@@ -8,26 +8,24 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/titohnf/design-system@main/tokens.css">
+<!-- Pinned to a commit SHA (not @main) — jsDelivr caches @main per-edge for
+     up to 7 days, so different visitors could otherwise see different
+     token versions at the same time. Bump this SHA deliberately when
+     design-system changes should roll out here. -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/titohnf/design-system@d269a1c1d68f9d9ced43ef5fc74b17d8369e7c8f/tokens.css">
 <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/gh/titohnf/design-system@d269a1c1d68f9d9ced43ef5fc74b17d8369e7c8f/tera-header.js" defer></script>
 </head>
 <body>
 
-<nav>
-  <div class="nav-i">
-    <div class="logo-mark">
-      <img src="image1.png" alt="Logo Bimbel Tera" />
-      <div class="logo">Bimbel Tera</div>
-    </div>
-    <div class="navlinks">
-      <a href="#metode">Metode</a>
-      <a href="#bukti">Hasil</a>
-      <a href="#program">Program</a>
-      <a href="#faq">FAQ</a>
-    </div>
-    <a href="https://bit.ly/DaftarBimbelTera" class="navcta" target="_blank">DAFTAR →</a>
-  </div>
-</nav>
+<tera-header
+  logo-text="Bimbel Tera"
+  logo-img="image1.png"
+  logo-href="/"
+  nav='[{"label":"Metode","href":"#metode"},{"label":"Hasil","href":"#bukti"},{"label":"Program","href":"#program"},{"label":"FAQ","href":"#faq"}]'
+  cta-text="DAFTAR →"
+  cta-href="https://bit.ly/DaftarBimbelTera"
+></tera-header>
 
 <div class="hero-bg">
 <div class="hero grid-corner">
