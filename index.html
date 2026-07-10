@@ -12,9 +12,10 @@
      up to 7 days, so different visitors could otherwise see different
      token versions at the same time. Bump this SHA deliberately when
      design-system changes should roll out here. -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/titohnf/design-system@5d4c12da4e01fa8e11bf8ed8338d5861da51ea44/tokens.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/titohnf/design-system@117e539a8e8f65b73872f45379fb86551de6e230/tokens.css">
 <link rel="stylesheet" href="style.css">
-<script src="https://cdn.jsdelivr.net/gh/titohnf/design-system@5d4c12da4e01fa8e11bf8ed8338d5861da51ea44/tera-header.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/titohnf/design-system@117e539a8e8f65b73872f45379fb86551de6e230/tera-header.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/titohnf/design-system@117e539a8e8f65b73872f45379fb86551de6e230/tera-footer.js" defer></script>
 </head>
 <body>
 
@@ -723,45 +724,14 @@
   </div>
 </div>
 
-<footer>
-  <div class="footer-main">
-    <div>
-      <div class="footer-brand-logo"><img src="image1.png" alt="Logo Bimbel Tera"></div>
-      <div class="footer-brand">Bimbel Tera</div>
-      <p class="footer-tagline">Bimbel yang #NgertiKamu — fokus membenarkan fondasi dulu, baru mengejar nilainya.</p>
-    </div>
-    <div>
-      <div class="footer-col-title">Navigasi</div>
-      <ul class="footer-links">
-        <li><a href="#metode">Cara Kami Membantu</a></li>
-        <li><a href="#bukti">Hasilnya</a></li>
-        <li><a href="#program">Program &amp; Harga</a></li>
-        <li><a href="#faq">Sering Ditanya</a></li>
-      </ul>
-    </div>
-    <div>
-      <div class="footer-col-title">Bagian dari Tera</div>
-      <ul class="footer-links">
-        <li><a href="https://tera.or.id" target="_blank" rel="noopener">Tera</a></li>
-        <li><a href="https://terafoundation.or.id" target="_blank" rel="noopener">Tera Foundation</a></li>
-        <li><a href="https://komunitas.tera.or.id" target="_blank" rel="noopener">Komunitas Tera</a></li>
-      </ul>
-    </div>
-    <div>
-      <div class="footer-col-title">Kontak</div>
-      <div class="footer-contact">
-        <span class="footer-contact-item">📍 Jl. Rawageni No. 9K Ratujaya, Depok</span>
-        <span class="footer-contact-item">🕒 Senin–Sabtu, 09.00–21.00</span>
-        <span class="footer-contact-item">💬 <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20Tera%20Learning%20Center">0853 6100 5445 (WhatsApp)</a></span>
-        <span class="footer-contact-item">✉️ <a href="mailto:teralearningcenter.id@gmail.com">teralearningcenter.id@gmail.com</a></span>
-      </div>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© 2026 Tera Learning Center. Semua hak dilindungi.</span>
-    <span>Dibuat dengan #NgertiKamu</span>
-  </div>
-</footer>
+<tera-footer
+  site="bimbel"
+  logo-text="Bimbel Tera"
+  logo-img="image1.png"
+  description="Bimbel yang #NgertiKamu — fokus membenarkan fondasi dulu, baru mengejar nilainya."
+  nav='[{"label":"Cara Kami Membantu","href":"#metode"},{"label":"Hasilnya","href":"#bukti"},{"label":"Program & Harga","href":"#program"},{"label":"Sering Ditanya","href":"#faq"}]'
+  contact='[{"text":"📍 Jl. Rawageni No. 9K Ratujaya, Depok"},{"text":"🕒 Senin–Sabtu, 09.00–21.00"},{"text":"💬 0853 6100 5445 (WhatsApp)","href":"https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20Tera%20Learning%20Center"},{"text":"✉️ teralearningcenter.id@gmail.com","href":"mailto:teralearningcenter.id@gmail.com"}]'
+></tera-footer>
 
 
 <a href="https://wa.me/6285361005445?text=Halo%20Tera%2C%20saya%20ingin%20tanya%20soal%20Tera%20Learning%20Center"
