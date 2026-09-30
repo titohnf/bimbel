@@ -187,7 +187,7 @@
   }
   #testimoni > *{position:relative;z-index:1;}
   .sec-eyebrow{
-    font-family:var(--font-sans);font-size:14px;color:var(--primary);
+    font-family:var(--font-sans);font-size:14px;color:#0b7d66;
     letter-spacing:0.4px;margin-bottom:12px;text-transform:uppercase;font-weight:600;
   }
   .sec-head h2{
