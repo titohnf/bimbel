@@ -138,15 +138,11 @@
   .hero p.lead{ font-size:16px;line-height:1.7;color:var(--muted);max-width:440px; }
   .hero-ctas{display:flex;gap:20px;align-items:center;margin-top:28px;flex-wrap:wrap;}
 
-  /* STRIP KEUNGGULAN — card melayang tosca, dengan background krem section berikutnya memotong setengah bawahnya */
+  /* STRIP KEUNGGULAN — card melayang tosca, dengan background section berikutnya mulai tepat di tengah tinggi card */
   .hero-why{
     padding:0 32px 36px;
     margin-top:-36px;position:relative;z-index:2;
-  }
-  .hero-why::after{
-    content:'';position:absolute;left:0;right:0;bottom:0;
-    height:calc(100% - 36px);
-    background:var(--muted-bg);z-index:-1;
+    background:linear-gradient(to bottom,#fff calc(50% - 18px),var(--muted-bg) calc(50% - 18px));
   }
   .hero-why-grid{
     max-width:1080px;margin:0 auto;padding:28px 32px;position:relative;z-index:1;
