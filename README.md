@@ -1,4 +1,4 @@
 # bimbel
 
 ## Credits
-Ikon di bagian "Cara Kami Membantu" berasal dari [Fluent Emoji](https://github.com/microsoft/fluentui-emoji) (Microsoft, lisensi MIT).
+Ikon di bagian "Cara Kami Membantu" diambil dari [Lucide](https://lucide.dev) (lisensi ISC).
