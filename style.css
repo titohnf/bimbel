@@ -668,11 +668,11 @@
   .ckm-card{
     display:flex;flex-direction:column;position:relative;overflow:hidden;
     border:1px solid var(--card-border);background:#fff;
-    padding:22px 18px 18px;
+    padding:32px 18px 24px;
   }
   .ckm-card > *{position:relative;z-index:1;}
   .ckm-icon-wrap{position:relative;display:inline-flex;width:40px;height:40px;margin-bottom:10px;}
-  .ckm-emoji{width:56px;height:56px;margin-bottom:14px;display:inline-block;position:relative;}
+  .ckm-emoji{width:96px;height:96px;margin:0 auto 16px;display:block;position:relative;}
   .ckm-emoji img{width:100%;height:100%;display:block;filter:drop-shadow(0 4px 6px rgba(16,24,40,0.12));}
 
   /* Emoji dibuat diam/statis. Animasi sebelumnya disimpan di sini, tinggal aktifkan lagi kalau perlu.
@@ -703,11 +703,7 @@
     font-family:'Lora',serif;font-weight:600;font-size:18px;color:var(--foreground);
     line-height:1.4;margin-bottom:10px;
   }
-  .ckm-desc{font-size:14px;color:var(--muted);line-height:1.6;flex:1;margin-bottom:14px;}
-  .ckm-fact{
-    padding-top:10px;border-top:1px dashed var(--card-border);
-    font-size:12.5px;color:var(--muted);line-height:1.55;
-  }
+  .ckm-desc{font-size:14px;color:var(--muted);line-height:1.6;flex:1;}
 
   /* posisi dasar elemen animasi — animasi sesungguhnya dikendalikan JavaScript di akhir body,
      supaya timing identik persis dengan versi React asli, bukan didekati lewat CSS keyframes */
