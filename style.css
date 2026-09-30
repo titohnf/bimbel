@@ -673,7 +673,7 @@
   .ckm-card > *{position:relative;z-index:1;}
   .ckm-icon-wrap{position:relative;display:inline-flex;width:40px;height:40px;margin-bottom:10px;}
   .ckm-emoji{width:68px;height:68px;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;position:relative;border-radius:50%;background:color-mix(in srgb,var(--ic) 12%,#fff);color:var(--ic);box-shadow:0 0 0 6px color-mix(in srgb,var(--ic) 6%,#fff);}
-  .ckm-emoji svg{width:32px;height:32px;fill:var(--ic);fill-opacity:.2;stroke:currentColor;stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;}
+  .ckm-emoji svg{width:34px;height:34px;fill:currentColor;}
   .ckm-emoji-1{--ic:#0d6efd;}
   .ckm-emoji-2{--ic:#12a594;}
   .ckm-emoji-3{--ic:#e08a00;}
