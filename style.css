@@ -348,16 +348,16 @@
     border:1px solid var(--card-border);background:#fff;padding:22px;
     display:flex;flex-direction:column;position:relative;
   }
-  .prog-card.featured{border-color:var(--primary);background:linear-gradient(180deg,#f3f8ff,#fff 45%);box-shadow:0 0 0 1px var(--primary),0 14px 34px rgba(13,110,253,0.14);}
+  .prog-card.featured{border-color:#0d8b72;background:linear-gradient(180deg,#f0faf7,#fff 45%);box-shadow:0 0 0 1px #0d8b72,0 14px 34px rgba(13,139,114,0.14);}
   .prog-card-wide{max-width:480px;}
   .prog-badge{
     position:absolute;top:-15px;left:50%;transform:translateX(-50%);white-space:nowrap;
     display:inline-flex;align-items:center;gap:6px;
-    background:linear-gradient(135deg,var(--primary),var(--primary-dark));color:#fff;
+    background:linear-gradient(135deg,#0d8b72,#0a7560);color:#fff;
     font-family:var(--font-sans);font-size:14px;font-weight:600;
     padding:5px 16px 5px 12px;border-radius:var(--radius-pill);
     text-transform:uppercase;letter-spacing:0.4px;
-    box-shadow:0 4px 12px rgba(13,110,253,0.35);
+    box-shadow:0 4px 12px rgba(13,139,114,0.35);
   }
   .prog-badge::before{
     content:'';width:14px;height:14px;flex-shrink:0;background:#fff;
