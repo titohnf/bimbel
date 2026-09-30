@@ -885,23 +885,6 @@
   .ba-thumb img{border-radius:10px;}
   .ba-thumb-pin{display:none;}
 
-  /* DEKORASI LEMBUT — pengganti grid kotak: cahaya gradasi biru/tosca di pojok section */
+  /* dekorasi grid kotak di pojok section dimatikan */
   :is(.hero,#bukti,#program,#faq).grid-corner::before,
-  :is(.hero,#bukti,#program,#faq).grid-corner::after{
-    background-image:radial-gradient(closest-side,rgba(13,110,253,0.10),rgba(13,110,253,0));
-    background-size:100% 100%;background-position:center;background-repeat:no-repeat;
-    -webkit-mask-image:none;mask-image:none;opacity:1;
-  }
-  :is(.hero,#bukti,#program,#faq).grid-corner::after{
-    background-image:radial-gradient(closest-side,rgba(32,197,181,0.13),rgba(32,197,181,0));
-  }
-
-  /* banner CTA: gradasi + lingkaran tipis, tanpa kotak */
-  .cta-grid-canvas{
-    background-image:
-      repeating-radial-gradient(circle at 94% 112%,transparent 0 46px,rgba(255,255,255,0.08) 46px 47px),
-      radial-gradient(circle at 88% 10%,rgba(255,255,255,0.20),rgba(255,255,255,0) 45%),
-      radial-gradient(circle at 6% 100%,rgba(32,197,181,0.40),rgba(32,197,181,0) 50%);
-    background-size:auto;
-  }
-  .cta-cell{display:none;}
+  :is(.hero,#bukti,#program,#faq).grid-corner::after{display:none;}
