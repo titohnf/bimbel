@@ -3,11 +3,14 @@
     const wasOpen = card.classList.contains('open');
     document.querySelectorAll('.ba-card.open').forEach(el => {
       el.classList.remove('open');
+      const b = el.querySelector('.ba-more-btn');
+      if (b) b.setAttribute('aria-expanded', 'false');
       const span = el.querySelector('.ba-more-text');
       if (span) span.textContent = 'Baca kisahnya';
     });
     if (!wasOpen) {
       card.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
       btn.querySelector('.ba-more-text').textContent = 'Tutup';
     }
   }
@@ -19,11 +22,16 @@
       const body = el.querySelector('.faq-body');
       if (body) { body.style.transition = 'none'; body.style.maxHeight = '0'; }
       el.classList.remove('open');
+      const qb = el.querySelector('.q');
+      if (qb) qb.setAttribute('aria-expanded', 'false');
       requestAnimationFrame(() => {
         if (body) { body.style.transition = ''; body.style.maxHeight = ''; }
       });
     });
-    if (!wasOpen) item.classList.add('open');
+    if (!wasOpen) {
+      item.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+    }
   }
 
   const words = [
@@ -71,8 +79,10 @@
 
   // mulai: tahan sebentar di kata pertama yang sudah penuh, lalu mulai cycle normal
   el.textContent = words[0];
-  el.classList.add('blinking');
-  setTimeout(() => { isDeleting = true; tick(); }, HOLD_TIME);
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    el.classList.add('blinking');
+    setTimeout(() => { isDeleting = true; tick(); }, HOLD_TIME);
+  }
 
   // ===== Port persis dari logic React useAnimCycle, supaya timing identik =====
   function animCycle(steps, restMs, onPhase) {
