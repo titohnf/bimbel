@@ -355,6 +355,7 @@
     font-family:var(--font-sans);font-size:14px;font-weight:600;
     padding:3px 10px;text-transform:uppercase;letter-spacing:0.3px;
   }
+  .prog-icon{width:32px;height:32px;display:block;margin-bottom:12px;fill:none;stroke:var(--primary);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round;}
   .prog-head{display:flex;align-items:baseline;gap:10px;margin-bottom:10px;}
   .prog-num{font-family:var(--font-sans);font-size:14px;font-weight:600;color:var(--muted);}
   .prog-head h3{font-family:'Lora',serif;font-weight:600;font-size:18px;color:var(--foreground);}
