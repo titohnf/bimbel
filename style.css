@@ -672,7 +672,7 @@
   }
   .ckm-card > *{position:relative;z-index:1;}
   .ckm-icon-wrap{position:relative;display:inline-flex;width:40px;height:40px;margin-bottom:10px;}
-  .ckm-emoji{width:96px;height:96px;margin:0 auto 16px;display:block;position:relative;}
+  .ckm-emoji{width:72px;height:72px;margin:0 auto 16px;display:block;position:relative;}
   .ckm-emoji img{width:100%;height:100%;display:block;filter:drop-shadow(0 4px 6px rgba(16,24,40,0.12));}
 
   /* Emoji dibuat diam/statis. Animasi sebelumnya disimpan di sini, tinggal aktifkan lagi kalau perlu.
