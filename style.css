@@ -185,7 +185,7 @@
 
   #testimoni{position:relative;}
   #testimoni::before{
-    content:'"';position:absolute;top:8px;right:32px;
+    content:'\201C';position:absolute;top:8px;right:32px;
     font-family:'Lora',serif;font-weight:700;font-size:180px;line-height:1;
     color:rgba(2,107,245,0.06);pointer-events:none;z-index:0;
   }
@@ -874,6 +874,9 @@
     *,*::before,*::after{animation-duration:0.01ms !important;animation-iteration-count:1 !important;transition-duration:0.01ms !important;scroll-behavior:auto !important;}
   }
 
+
+  html{scroll-behavior:smooth;scroll-padding-top:80px;}
+  a:focus-visible,button:focus-visible{outline:2px solid var(--primary);outline-offset:3px;border-radius:4px;}
 
   /* SOFT CARDS — tampilan lembut-profesional: border tipis, sudut membulat, bayangan halus */
   :root{--radius-button:8px;--soft-shadow:0 1px 2px rgba(16,24,40,0.05),0 6px 20px rgba(16,24,40,0.05);}
